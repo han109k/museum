@@ -1,0 +1,84 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #fec5bb;
+}
+
+.fixed-top.scrolled {
+    background-color: #b5838de9 !important;
+    transition: background-color 0.5s linear;
+}
+
+/* Set the border color */
+
+.custom-toggler.navbar-toggler {
+    border-color: #00000015;
+}
+
+/* Setting the stroke to green using rgb values (109, 104, 117) */
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(109, 104, 117, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-size: x-large;
+    color: #9d0208;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: 200;
+    color: #f1faee;
+}
+
+.nav-link:hover {
+    color: #9d0208;
+}
+
+#h1-group {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 100;
+    color: #f1faee;
+}
+
+span {
+    color: #9d0208;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 3em;
+    color: #9d0208;
+}
+
+.lolipop {
+    align-self: center;
+}
+
+p {
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    font-weight: 200;
+    color: #6d6875;
+    line-height: 200%;
+}
+
+@media (max-width: 1100px) {
+    #h1-group {
+        font-size: 2.3rem;
+    }
+    p {
+        line-height: 150%;
+    }
+}
+
+@media (max-width: 800px) {
+
+}
